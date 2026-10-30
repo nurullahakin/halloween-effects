@@ -11,7 +11,7 @@
     flightMax: 11000,     // ms to cross the screen (max)
     color: '#151515',
     eyeColor: '#ff7a00',
-    zIndex: 9999,
+    zIndex: 2147483647, // max possible: above modals, chat widgets, etc.
     sound: true,          // flutter + squeak when a bat is hovered/tapped
     volume: 0.25,         // master volume 0..1
     flutterVolume: 0.25,  // wing flutter level relative to squeaks, 0 = off
